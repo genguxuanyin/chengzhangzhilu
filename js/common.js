@@ -130,7 +130,7 @@ Object.assign(WX3D.prototype, {
         var dis = 2,
             l = 40;
         var geometry = new THREE.BoxBufferGeometry(l, 6, l);
-        var textures = [new THREE.TextureLoader().load('../texture/up_dark.png'), new THREE.TextureLoader().load('../texture/up_llight.png')]
+        var textures = [new THREE.TextureLoader().load('../chengzhangzhilu/texture/up_dark.png'), new THREE.TextureLoader().load('../chengzhangzhilu/texture/up_llight.png')]
         var passMats = [new THREE.MeshPhongMaterial({
             // color: 0x228B22,
             map: textures[0]
