@@ -31,49 +31,49 @@ Object.assign(WX3D.prototype, {
 
         this.getData(function (data) {
             data = [{
-                img: "../img/0.png",
+                img: "../chengzhangzhilu/img/0.png",
                 info: ['1-1', '1-2', '1-3', '1-4']
             }, {
-                img: "../img/1.png",
+                img: "../chengzhangzhilu/img/1.png",
                 info: ['2-1', '2-2', '2-3', '2-4']
             }, {
-                img: "../img/2.png",
+                img: "../chengzhangzhilu/img/2.png",
                 info: ['3-1', '3-2', '3-3', '3-4']
             }, {
-                img: "../img/3.png",
+                img: "../chengzhangzhilu/img/3.png",
                 info: ['4-1', '4-2', '4-3', '4-4']
             }, {
-                img: "../img/4.png",
+                img: "../chengzhangzhilu/img/4.png",
                 info: ['5-1', '5-2', '5-3', '5-4']
             }, {
-                img: "../img/5.png",
+                img: "../chengzhangzhilu/img/5.png",
                 info: ['6-1', '6-2', '6-3', '6-4']
             }, {
-                img: "../img/6.png",
+                img: "../chengzhangzhilu/img/6.png",
                 info: ['7-1', '7-2', '7-3', '7-4']
             }, {
-                img: "../img/7.png",
+                img: "../chengzhangzhilu/img/7.png",
                 info: ['8-1', '8-2', '8-3', '8-4']
             }, {
-                img: "../img/8.png",
+                img: "../chengzhangzhilu/img/8.png",
                 info: ['9-1', '9-2', '9-3', '9-4']
             }, {
-                img: "../img/9.png",
+                img: "../chengzhangzhilu/img/9.png",
                 info: ['10-1', '10-2', '10-3', '10-4']
             }, {
-                img: "../img/10.png",
+                img: "../chengzhangzhilu/img/10.png",
                 info: ['11-1', '11-2', '11-3', '11-4']
             }, {
-                img: "../img/11.png",
+                img: "../chengzhangzhilu/img/11.png",
                 info: ['12-1', '12-2', '12-3', '12-4']
             }, {
-                img: "../img/12.png",
+                img: "../chengzhangzhilu/img/12.png",
                 info: ['12-1', '12-2', '12-3', '12-4']
             }, {
-                img: "../img/13.png",
+                img: "../chengzhangzhilu/img/13.png",
                 info: ['13-1', '13-2', '13-3', '13-4']
             }, {
-                img: "../img/14.png",
+                img: "../chengzhangzhilu/img/14.png",
                 info: ['14-1', '14-2', '14-3', '14-4']
             }];
             _this.table = data;
@@ -231,7 +231,7 @@ Object.assign(WX3D.prototype, {
         }
 
         /* var geometry = new THREE.PlaneBufferGeometry( 63, 63 );
-        var texture = new THREE.TextureLoader().load( "../../img/1.png" );
+        var texture = new THREE.TextureLoader().load( "../../chengzhangzhilu/img/1.png" );
         var material = new THREE.MeshBasicMaterial( {side: THREE.DoubleSide,map:texture,transparent:true} );
         var plane = new THREE.Mesh( geometry, material );
         plane.rotateX( -Math.PI / 2 );
